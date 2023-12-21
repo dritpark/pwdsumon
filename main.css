@@ -1630,7 +1630,9 @@ span.typed-cursor {
    -o-transition: 0.3s ease-in;
    transition: 0.3s ease-in;
 }
-.preloader .preloader-inner .text,
+.preloader .preloader-inner .text {
+   background: #fff;
+}
 .pwd-offcanvas-area {
    background: #000;
 }
